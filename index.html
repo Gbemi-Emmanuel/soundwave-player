@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Soundwave-player</title>
+</head>
+<body>
+
+    <section>
+        <div class="menu-side">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-list"></i> Playlist</h4>
+                <h4><span></span><i class="bi bi-music-note-list"></i> Last Listening</h4>
+                <h4><span></span><i class="bi bi-music-note-list"></i> Recommended</h4>
+            </div>
+            <div class="menu-songs">
+                <ol>
+                    <li class="songItem">
+                        <span>01</span>
+                        <img src="./img/trending/bandana.jpg" alt="bandana">
+                        <h5>
+                            Bandana
+                            <div class="subtitle">Fireboy (DML) Ft. Asake</div>
+                        </h5>
+                        <i class="bi bi-play-circle playlist-play" id="1"></i>
+                    </li>
+                </ol>
+                <ol>
+                    <li class="songItem">
+                        <span>02</span>
+                        <img src="./img/trending/bandana.jpg" alt="bandana">
+                        <h5>
+                            Bandana
+                            <div class="subtitle">Fireboy (DML) Ft. Asake</div>
+                        </h5>
+                        <i class="bi bi-play-circle playlist-play" id="2"></i>
+                    </li>
+                </ol>
+                <ol>
+                    <li class="songItem">
+                        <span>03</span>
+                        <img src="./img/trending/bandana.jpg" alt="bandana">
+                        <h5>
+                            Bandana
+                            <div class="subtitle">Fireboy (DML) Ft. Asake</div>
+                        </h5>
+                        <i class="bi bi-play-circle playlist-play" id="3"></i>
+                    </li>
+                </ol>
+                <ol>
+                    <li class="songItem">
+                        <span>04</span>
+                        <img src="./img/trending/bandana.jpg" alt="bandana">
+                        <h5>
+                            Bandana
+                            <div class="subtitle">Fireboy (DML) Ft. Asake</div>
+                        </h5>
+                        <i class="bi bi-play-circle playlist-play" id="4"></i>
+                    </li>
+                </ol>
+                <ol>
+                    <li class="songItem">
+                        <span>05</span>
+                        <img src="./img/trending/bandana.jpg" alt="bandana">
+                        <h5>
+                            Bandana
+                            <div class="subtitle">Fireboy (DML) Ft. Asake</div>
+                        </h5>
+                        <i class="bi bi-play-circle playlist-play" id="5"></i>
+                    </li>
+                </ol>
+                <ol>
+                    <li class="songItem">
+                        <span>06</span>
+                        <img src="./img/trending/bandana.jpg" alt="bandana">
+                        <h5>
+                            Bandana
+                            <div class="subtitle">Fireboy (DML) Ft. Asake</div>
+                        </h5>
+                        <i class="bi bi-play-circle playlist-play" id="6"></i>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="song-side">
+            <nav>
+                
+            </nav>
+        </div>
+        <div class="master-play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="./img/trending/bandana.jpg" alt="Fireboy">
+            <h5>
+                Bandana <br>
+                <div class="subtitle">Fireboy (DML) Ft. Asake</div>
+            </h5>
+            <div class="icon">
+                <i class="bi bi-skip-start-fill"></i>
+                <i class="bi bi-play-fill"></i>
+                <i class="bi bi-skip-end-fill"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" name="" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:00</span>
+
+            <div class="vol">
+                <i class="bi bi-volume-down-fill"></i>
+                <input type="range" name="" id="vol" min="0" value="30" max="100">
+                <div class="vol-bar"></div>
+                <div class="dot" id="vol-dot"></div>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="./script/main.js"></script>
+</body>
+</html> 
