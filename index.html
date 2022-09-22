@@ -11,13 +11,14 @@
 <body>
 
     <section>
+
         <div class="menu-side">
             <h1>Playlist</h1>
             <div class="playlist">
                 <h4 class="active"><span></span><i class="bi bi-music-note-list"></i> Playlist</h4>
                 <h4><span></span><i class="bi bi-music-note-list"></i> Last Listening</h4>
                 <h4><span></span><i class="bi bi-music-note-list"></i> Recommended</h4>
-            </div>
+            </div><!------ PLAYLIST ENDS HERE ------>
             <div class="menu-songs">
                 <ol>
                     <li class="songItem">
@@ -85,13 +86,58 @@
                         <i class="bi bi-play-circle playlist-play" id="6"></i>
                     </li>
                 </ol>
-            </div>
-        </div>
+            </div><!----- MENU SONGS ENDS HERE ------->
+        </div><!------ MENU SIDE ENDS HERE ------->
+
+
+
         <div class="song-side">
             <nav>
-                
+                <ul>
+                    <li>Discover <span></span></li>
+                    <li>My Library</li>
+                    <li>Discover</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Music...">
+                </div><!------ SEARCH ENDS HERE ------>
+                <div class="user">
+                    <img src="./img/677.jpg" alt="user" title="Emmanuel Maxify">
+                </div><!------ USER ENDS HERE ------->
             </nav>
-        </div>
+            <div class="content">
+                <h1>Fireboy Ft. Asake</h1>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod fuga dolorum, error accu
+                <br>
+                enim repellendus provident aspernatur impedit modi perferendis non quam pariatur libero!
+                </p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div><!------ BUTTONS ENDS HERE ----->
+            </div><!------ CONTENTS ENDS HERE ----->
+            <div class="popular-songs">
+                <div class="h4">
+                    <h4>Popular Song</h4>
+                    <div class="btns">
+                        <i id="left-scroll" class="bi bi-arrow-left-short"></i>
+                        <i id="right-scroll" class="bi bi-arrow-right-short"></i>
+                    </div>
+                </div><!------- H4 ENDS HERE ------->
+                <div class="pop-songs">
+                    <li class="songItems">
+                        <div class="img-play">
+                            
+                        </div>
+                    </li>
+                </div>
+            </div>
+        </div><!------ SONG SIDE ENDS HERE ------>
+
+
+
         <div class="master-play">
             <div class="wave">
                 <div class="wave1"></div>
@@ -122,10 +168,12 @@
                 <div class="vol-bar"></div>
                 <div class="dot" id="vol-dot"></div>
             </div>
-        </div>
+        </div><!------- MASTER PLAY ENDS HERE -------->
     </section>
     
 
+
+    
     <script src="./script/main.js"></script>
 </body>
 </html> 
